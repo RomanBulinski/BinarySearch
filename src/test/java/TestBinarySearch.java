@@ -49,4 +49,27 @@ public class TestBinarySearch {
         assertFalse(  bs.binarySearch( arr,20  )   );
     }
 
+
+    @Test
+    public  void testBinarySearchTRue4(){
+        int[] arr = {1, 2, 3, 4, 5 };
+        BinarySearch bs = new BinarySearch();
+        assertTrue(  bs.binarySearch( arr,5   )   );
+    }
+
+    @Test
+    public  void testBinarySearchTRue5(){
+        int[] arr = {1, 2, 3, 4, 5 };
+        BinarySearch bs = new BinarySearch();
+        assertTrue(  bs.binarySearch( arr,1   )   );
+    }
+
+    @Test
+    public  void testBinarySearchTRue6(){
+        int[] arr = { 3};
+        BinarySearch bs = new BinarySearch();
+        assertTrue(  bs.binarySearch( arr,3   )   );
+    }
+
+
 }
