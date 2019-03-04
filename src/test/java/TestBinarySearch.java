@@ -42,5 +42,11 @@ public class TestBinarySearch {
     }
 
 
+    @Test
+    public  void testBinarySearchFalse4(){
+        int[] arr = {};
+        BinarySearch bs = new BinarySearch();
+        assertFalse(  bs.binarySearch( arr,20  )   );
+    }
 
 }
